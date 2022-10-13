@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+body{
+
+background-color: #E3FFD7;
+font-family: 'Silkscreen';
+font-weight: 700;
+font-style :normal;
+}
+
+.intro {
+    width: 400px;
+    height: 400px;
+    margin-left: 85px;
+    margin-top: 50px;
+}
+
+.intro h1{
+
+    color: black;
+
+}
+.intro h2{
+    color : black;
+    position : relative;
+    top: -20px;
+    left : 20px;
+    width: 400px;
+    font-size: 16px;
+
+}
+
+.intro a{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+body a{
+
+    color: black;
+    text-decoration : none; 
+}
+
+.options {
+    
+    width : 700px;
+    height : 30px;
+    margin-top: -280px;
+    margin-left: 600px;
+    position: relative;
+
+    
+}
+
+.options a{
+    height: 30px;
+    font-size: 19px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+.options #whoami{
+   position: absolute;
+   margin-left :0px;
+}
+
+.options #myresume{
+    position: absolute;    
+    margin-left : 250px;
+
+}
+
+.options #myprojects{
+    position:absolute;
+    margin-left:500px;
+
+}
